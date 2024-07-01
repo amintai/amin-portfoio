@@ -24,6 +24,11 @@
   color: white;
 }
 
+.logoTitle {
+  font-weight: bold;
+  color: #c084f5;
+}
+
 .App-link {
   color: #61dafb;
 }
