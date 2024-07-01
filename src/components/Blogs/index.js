@@ -4,6 +4,7 @@ import Particle from "../Particle";
 import BlogCard from "./BlogCard";
 import Rest from "../../Assets/Blogs/Rest.webp";
 import Call from "../../Assets/Blogs/callBind.jpeg";
+import Supabase from "../../Assets/Blogs/supabase.png";
 
 const Blogs = () => {
   return (
@@ -42,6 +43,18 @@ const Blogs = () => {
             imgPath={Call}
             description={
               "As a JavaScript developer, it's important to understand how to manipulate the this keyword and pass arguments to functions. In this post, we will explore three methods that help you achieve, call(), bind() and apply()."
+            }
+          />
+        </Col>
+        <Col md={4} className="project-card">
+          <BlogCard
+            title={"Supabase CRUD Operations"}
+            blogLink={
+              "https://www.linkedin.com/posts/amintai_developercommunity-supabase-react-activity-7098697383957446657-0QfI?utm_source=share&utm_medium=member_desktop"
+            }
+            imgPath={Supabase}
+            description={
+              "Supabase is a powerful open-source platform that empowers developers to effortlessly build and scale backend services for their applications. With features rivaling those of Firebase, it provides real-time databases, authentication, APIs, and more - all while being built on the foundation of PostgreSQL."
             }
           />
         </Col>
